@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 public class JavaTestClass {
-    public static void mai (String [] arguments) {
+    public static void main (String [] arguments) {
         int number;
         System.out.println("enter the number : ");
         Scanner sc = new Scanner(System.in);
@@ -13,6 +13,10 @@ public class JavaTestClass {
             reversednumber = reversednumber * 10 + remainder;
             temp = temp / 10;
         }
+        if(number == reversednumber)
+        System.out.println("number is palindrome");
+        else
+        System.out.println("number is nnot palindrome");
     }
     
 }
