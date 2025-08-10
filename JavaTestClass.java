@@ -16,7 +16,7 @@ public class JavaTestClass {
         if(number == reversednumber)
         System.out.println("number is palindrome");
         else
-        System.out.println("number is nnot palindrome");
+        System.out.println("number is not palindrome");
     }
     
 }
