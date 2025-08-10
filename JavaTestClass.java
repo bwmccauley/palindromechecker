@@ -11,6 +11,7 @@ public class JavaTestClass {
         while(temp > 0) {
             int remainder =temp % 10;
             reversednumber = reversednumber * 10 + remainder;
+            temp = temp / 10;
         }
     }
     
